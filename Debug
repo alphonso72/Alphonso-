@@ -1,0 +1,14 @@
+﻿using System;
+using Microsoft.CSharp.RuntimeBinder;
+
+namespace C
+{
+    class Program
+    {
+        static void Main(string[] args)
+    
+    int a = 42;
+    int b = 119;
+    int c = a + b;
+        Console.Writeline(C);
+    Console.Readkey();}
