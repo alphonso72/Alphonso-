@@ -1,0 +1,27 @@
+using string statement
+
+namespace Date_Time
+{
+    Class Program
+    {
+        void ShowTime()
+        {
+            DateTime currentDate = DateTime.Now;
+            bool leapyear = DateTime.IsleepYear(2020);
+
+            Console.WriteLine(currentDate);
+            Console.WriteLine("2020 is a leapyear : ");
+            Console.WriteLine(leapyear);
+        }
+
+        static world Main(string[] args )
+        {
+            //creat an object of Class Program,
+            //to Access a method of that class,
+            //in this case, is the ShowTime() method 
+            Program MyProgram = new Program();
+
+            MyProgram.ShowTime();
+        }
+    }
+}
